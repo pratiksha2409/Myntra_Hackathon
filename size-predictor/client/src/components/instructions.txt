@@ -1,8 +1,0 @@
-For each page, create a directory for the page here
-And put all the components that are used in the page in this directory
-
-Home 
-    - Section1.jsx
-    - Section2.jsx
-
-and so on

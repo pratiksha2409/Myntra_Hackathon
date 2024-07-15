@@ -173,6 +173,12 @@ const Customizer = () => {
               handleClick={() => state.intro = true}
               customStyles="w-fit px-4 py-2.5 font-bold text-sm"
             />
+            <CustomButton 
+              type="filled"
+              title="Order now"
+              handleClick={() => state.intro = true}
+              customStyles="w-fit px-4 py-2.5 m-3 font-bold bg-[#f21fb0] text-sm"
+            />
           </motion.div>
 
           <motion.div
@@ -190,6 +196,7 @@ const Customizer = () => {
               />
             ))}
           </motion.div>
+          
         </>
       )}
     </AnimatePresence>
