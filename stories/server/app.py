@@ -25,9 +25,9 @@ app.config['SECRET_KEY'] = 'your_flask_secret_key'
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(days=1)
 
 # Manually specify AWS S3 credentials
-AWS_ACCESS_KEY_ID = "AKIAT7AVHGHPZE2JGMBU"
-AWS_SECRET_ACCESS_KEY = "MDfygpXIZVqGjf8VBnHPwMNSMxQOczQeAjzIl0lM"
-AWS_S3_BUCKET_NAME = "myntra-stories-bucket"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
+AWS_S3_BUCKET_NAME = ""
 AWS_S3_REGION = "ap-south-1"
 
 # Initialize JWTManager
