@@ -1,10 +1,12 @@
 from flask import Flask
 from pymongo import MongoClient
+import os
+from dotenv import load_dotenv, find_dotenv
 
 app = Flask(__name__)
 
 # MongoDB connection URI
-client = MongoClient('mongodb url')
+client = MongoClient(os.environ['MONGO_URI'])
 db = client['Myntra']  # Replace 'myntra' with your database name
 collection = db['registration']  # Replace 'test_collection' with your collection name
 
