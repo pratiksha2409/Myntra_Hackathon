@@ -4,7 +4,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 # MongoDB connection URI
-client = MongoClient('mongodb+srv://mamtag3s89:frozen8989@myntra.omrgbw6.mongodb.net/?retryWrites=true&w=majority&appName=myntra')
+client = MongoClient('mongodb url')
 db = client['Myntra']  # Replace 'myntra' with your database name
 collection = db['registration']  # Replace 'test_collection' with your collection name
 
